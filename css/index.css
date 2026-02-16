@@ -1,0 +1,87 @@
+.container{
+width: 100%;
+background-color: cadetblue;
+border-radius: 12px;
+border: solid black 0.1px;
+text-align: left;
+
+}
+
+body{
+max-width: 500px;
+width: 50%;
+border: solid black 0.1px;
+border-radius: 12px;
+margin: 0 auto;
+
+padding: 15px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+text-align: center;
+align-items: center;
+font-size: 1rem;
+font-family: 'Times New Roman', Times, serif;
+}
+body h1{
+    margin-left: 50px;
+}
+
+.div-form{
+padding: 15px;
+gap: 5px;
+margin-left: 20px;
+
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea{
+resize: vertical;   
+width: 100%;
+min-height: 50px;
+border-radius: 5px;
+}
+
+.div-form button{
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+.div-button{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    margin-left: 35px;
+    gap: 15px;
+    
+    
+
+}
+button.clear, button.save{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: darkcyan;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.save{background-color: rgb(20, 144, 201);}
+button.save:hover{
+    background-color: rgb(42, 112, 216);
+    
+}
+button.clear{background-color: crimson;}
+button.clear:hover{
+    background-color: rgb(190, 47, 47);
+}

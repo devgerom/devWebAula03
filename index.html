@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulário de Contato</h1>
+        <form id="contactForm">
+            <div class="div-form">
+                <label for="name">Nome: </label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="div-form">
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="div-form">
+                <label for="password">Senha: </label>
+                <input type="password" id="password" name="password">
+            </div>
+
+            <div class="div-form">
+                <label for="message">Mensagem: </label>
+                <textarea type="text" id="message" name="message"></textarea>
+            </div>
+
+            <div class="div-button">
+                <button type="button" class="save" onclick="saveForm()">Salvar</button>
+                <button type="button" class="clear" onclick="clearForm()">Limpar</button>
+            </div>
+
+
+        </form>
+
+
+    </div>
+</body>
+
+</html>
