@@ -15,10 +15,17 @@ function saveForm() {
         alert('Campo nome vazio!')
         return
     }
-    if (document.getElementById('email').value ==''){
-        alert('Campo e-mail vazio!')
+
+    const emiil = document.getElementById('email').value
+    if (emiil == ''){
+        alert('O campo e-mail deve ser prenchido!')
         return
     }
+    if (!emiil.includes('@')){
+        alert('E-mail inválido! @ obrigatório!')
+    }
+
+
     if (document.getElementById('password').value == ''){
         alert('Campo de senha vazio!')
         return
